@@ -1,0 +1,86 @@
+p{
+    margin: 0px;
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-profile{
+    width: auto;
+    background-color: white;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.contour{
+    margin: 10px;
+    border: 4px outset #ff9900;;
+}
+
+.contour h2{
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.container-main{
+    margin: 0px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.container-left{
+    margin: 20px 20px 20px 20px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-left span{
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 550;
+    font-size: 18px;
+    display: flex;
+}
+
+.container-right{
+    margin: 0px 20px 20px 20px;
+    padding: 0px 0px 0px 20px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid black
+}
+
+.container-right .data-user{
+    display: flex;
+}
+
+.container-right .title{
+    font-weight: 550;
+}
+
+.container-right .title, .complement{
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.container-right .complement{
+    margin-left: 2.5px;
+}
+
+.container-left img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
